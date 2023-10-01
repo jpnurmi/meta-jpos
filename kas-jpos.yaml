@@ -1,0 +1,36 @@
+header:
+  version: 14
+distro: jpos
+defaults:
+  repos:
+    branch: mickledore
+target: core-image-jpos
+repos:
+  meta-jpos:
+  poky:
+    url: "https://git.yoctoproject.org/git/poky"
+    path: layers/poky
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+  meta-openembedded:
+    url: https://github.com/openembedded/meta-openembedded.git
+    path: layers/meta-openembedded
+    layers:
+      meta-oe:
+  meta-clang:
+    url: https://github.com/kraj/meta-clang.git
+    path: layers/meta-clang
+  meta-rust:
+    url: https://github.com/meta-rust/meta-rust.git
+    branch: master
+    path: layers/meta-rust
+  meta-slint:
+    url: https://github.com/slint-ui/meta-slint.git
+    branch: main
+    path: layers/meta-slint
+local_conf_header:
+    custom-local-conf: |
+      DL_DIR ?= "${TOPDIR}/../downloads"
+      SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
