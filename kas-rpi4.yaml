@@ -7,3 +7,6 @@ repos:
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi.git
     path: layers/meta-raspberrypi
+local_conf_header:
+  accept-licenses: |
+    LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
