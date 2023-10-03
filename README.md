@@ -14,12 +14,8 @@
     branch: mickledore
     revision: HEAD
 
-    URI: https://github.com/meta-rust/meta-rust.git
+    URI: https://github.com/meta-rust/meta-rust-bin.git
     branch: master
-    revision: HEAD
-
-    URI: https://github.com/slint-ui/meta-slint.git
-    branch: main
     revision: HEAD
 
 ### Optional
