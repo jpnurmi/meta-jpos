@@ -22,14 +22,10 @@ repos:
   meta-clang:
     url: https://github.com/kraj/meta-clang.git
     path: layers/meta-clang
-  meta-rust:
-    url: https://github.com/meta-rust/meta-rust.git
+  meta-rust-bin:
+    url: https://github.com/rust-embedded/meta-rust-bin
     branch: master
-    path: layers/meta-rust
-  meta-slint:
-    url: https://github.com/slint-ui/meta-slint.git
-    branch: main
-    path: layers/meta-slint
+    path: layers/meta-rust-bin
 local_conf_header:
     custom-local-conf: |
       DL_DIR ?= "${TOPDIR}/../downloads"
