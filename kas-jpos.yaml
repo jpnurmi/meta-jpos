@@ -3,7 +3,7 @@ header:
 distro: jpos
 defaults:
   repos:
-    branch: mickledore
+    branch: kirkstone
 target: image-jpos
 repos:
   meta-jpos:
