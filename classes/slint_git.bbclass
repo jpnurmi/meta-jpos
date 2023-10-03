@@ -15,3 +15,18 @@ SRCREV = "${AUTOREV}"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=c12ffea0eacb376c3ba8c0601fe78d5d"
 
 S = "${WORKDIR}/git"
+
+# EXTRA_CARGO_FLAGS += "\
+#     --no-default-features \
+#     --features slint/backend-linuxkms \
+# "
+
+# DEPENDS = "\
+#     libdrm \
+#     libinput \
+#     libxkbcommon \
+#     seatd \
+#     udev \
+#     virtual/egl \
+#     virtual/libgbm \
+# "
