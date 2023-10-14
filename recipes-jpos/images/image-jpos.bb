@@ -5,4 +5,4 @@ DESCRIPTION = "jpOS image"
 LICENSE = "MIT"
 
 IMAGE_INSTALL += "packagegroup-jpos"
-IMAGE_FEATURES += "splash weston"
+IMAGE_FEATURES += "splash"
