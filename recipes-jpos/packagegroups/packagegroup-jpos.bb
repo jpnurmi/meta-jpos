@@ -4,5 +4,5 @@ LICENSE = "MIT"
 inherit packagegroup
 
 RDEPENDS:${PN} = "\
-    printerdemo \
+    weather \
 "
