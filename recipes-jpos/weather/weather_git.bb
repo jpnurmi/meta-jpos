@@ -1,6 +1,6 @@
 SUMMARY = "Weather"
 HOMEPAGE = "https://github.com/jpnurmi/jpos-weather"
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 
 inherit cargo_bin
 

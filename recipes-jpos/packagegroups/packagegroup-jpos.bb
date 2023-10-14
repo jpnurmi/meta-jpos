@@ -1,5 +1,5 @@
 DESCRIPTION = "jpOS"
-LICENSE = "MIT"
+LICENSE = "GPL-3.0-only"
 
 inherit packagegroup
 

@@ -2,7 +2,7 @@ require recipes-core/images/core-image-base.bb
 
 SUMMARY = "jpOS"
 DESCRIPTION = "jpOS image"
-LICENSE = "MIT"
+LICENSE = "GPL-3.0-only"
 
 IMAGE_INSTALL += "packagegroup-jpos"
 IMAGE_FEATURES += "splash"
