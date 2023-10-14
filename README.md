@@ -10,6 +10,10 @@
     branch: kirkstone
     revision: HEAD
 
+    URI: https://code.qt.io/yocto/meta-qt6.git
+    branch: 6.6
+    revision: HEAD
+
     URI: https://github.com/meta-rust/meta-rust-bin.git
     branch: master
     revision: HEAD
