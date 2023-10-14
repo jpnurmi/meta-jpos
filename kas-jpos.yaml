@@ -8,7 +8,7 @@ target: image-jpos
 repos:
   meta-jpos:
   poky:
-    url: "https://git.yoctoproject.org/git/poky"
+    url: https://git.yoctoproject.org/git/poky
     path: layers/poky
     layers:
       meta:
@@ -19,6 +19,10 @@ repos:
     path: layers/meta-openembedded
     layers:
       meta-oe:
+  meta-qt6:
+    url: https://code.qt.io/yocto/meta-qt6.git
+    branch: "6.6"
+    path: layers/meta-qt6
   meta-rust-bin:
     url: https://github.com/rust-embedded/meta-rust-bin
     branch: master
