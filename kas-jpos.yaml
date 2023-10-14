@@ -29,6 +29,3 @@ local_conf_header:
   dirs: |
     DL_DIR ?= "${TOPDIR}/../downloads"
     SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
-  rust: |
-    BBMASK += "poky/meta/recipes-devtools/rust"
-    BBMASK += "poky/meta/recipes-devtools/cargo"
