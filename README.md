@@ -3,11 +3,11 @@
 ## Dependencies
 
     URI: https://git.yoctoproject.org/git/poky
-    branch: mickledore
+    branch: kirkstone
     revision: HEAD
 
     URI: https://github.com/openembedded/meta-openembedded.git
-    branch: mickledore
+    branch: kirkstone
     revision: HEAD
 
     URI: https://github.com/meta-rust/meta-rust-bin.git
@@ -17,5 +17,5 @@
 ### Optional
 
     URI: https://github.com/agherzan/meta-raspberrypi.git
-    branch: mickledore
+    branch: kirkstone
     revision: HEAD
