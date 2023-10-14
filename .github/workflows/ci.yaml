@@ -14,5 +14,5 @@ jobs:
     - run: sudo apt update
     - run: sudo apt install -y chrpath diffstat
     - run: sudo pip3 install kas
-    - run: kas checkout kas-jpos.yaml
-    - run: kas build kas-jpos.yaml
+    - run: kas checkout kas-jpos-ci.yaml
+    - run: kas build kas-jpos-ci.yaml

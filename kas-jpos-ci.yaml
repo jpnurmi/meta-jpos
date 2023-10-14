@@ -1,0 +1,7 @@
+header:
+  version: 14
+  includes:
+    - kas-jpos.yaml
+local_conf_header:
+  reduce_diskspace: |
+    INHERIT += "rm_work_and_downloads"
