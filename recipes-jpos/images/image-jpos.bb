@@ -4,5 +4,8 @@ SUMMARY = "jpOS"
 DESCRIPTION = "jpOS image"
 LICENSE = "GPL-3.0-only"
 
-IMAGE_INSTALL += "packagegroup-jpos"
+IMAGE_INSTALL += "\
+    packagegroup-fonts-truetype \
+    packagegroup-jpos \
+"
 IMAGE_FEATURES += "splash"
