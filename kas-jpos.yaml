@@ -19,9 +19,6 @@ repos:
     path: layers/meta-openembedded
     layers:
       meta-oe:
-  meta-clang:
-    url: https://github.com/kraj/meta-clang.git
-    path: layers/meta-clang
   meta-rust-bin:
     url: https://github.com/rust-embedded/meta-rust-bin
     branch: master

@@ -10,10 +10,6 @@
     branch: mickledore
     revision: HEAD
 
-    URI: https://github.com/kraj/meta-clang.git
-    branch: mickledore
-    revision: HEAD
-
     URI: https://github.com/meta-rust/meta-rust-bin.git
     branch: master
     revision: HEAD
