@@ -13,15 +13,5 @@ S = "${WORKDIR}/git"
 LIC_FILES_CHKSUM = "file://LICENSES/GPL-3.0-only.txt;md5=75d892af193fd5a298f724c4377d8f62"
 
 DEPENDS = "\
-    libdrm \
-    libinput \
-    libxkbcommon \
     openssl \
-    seatd \
-    udev \
-    virtual/egl \
-    virtual/libgbm \
 "
-
-CARGO_FEATURES = "slint/backend-linuxkms slint/renderer-femtovg"
-EXTRA_CARGO_FLAGS = "--no-default-features"

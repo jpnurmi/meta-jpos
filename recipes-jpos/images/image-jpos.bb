@@ -8,4 +8,4 @@ IMAGE_INSTALL += "\
     packagegroup-fonts-truetype \
     packagegroup-jpos \
 "
-IMAGE_FEATURES += "splash"
+IMAGE_FEATURES += "splash weston"
