@@ -2,7 +2,7 @@ header:
   version: 14
   includes:
     - kas-jpos.yaml
-machine: raspberrypi4
+machine: raspberrypi4-64
 repos:
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi.git
