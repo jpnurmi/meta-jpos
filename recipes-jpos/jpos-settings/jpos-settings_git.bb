@@ -1,4 +1,4 @@
-SUMMARY = "Settings"
+SUMMARY = "jpOS Settings"
 HOMEPAGE = "https://github.com/jpnurmi/jpos-settings"
 LICENSE = "GPL-3.0-only"
 

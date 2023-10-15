@@ -1,4 +1,4 @@
-SUMMARY = "Weather"
+SUMMARY = "jpOS Weather"
 HOMEPAGE = "https://github.com/jpnurmi/jpos-weather"
 LICENSE = "GPL-3.0-only"
 

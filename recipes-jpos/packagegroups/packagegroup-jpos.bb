@@ -4,6 +4,6 @@ LICENSE = "GPL-3.0-only"
 inherit packagegroup
 
 RDEPENDS:${PN} = "\
-    settings \
-    weather \
+    jpos-settings \
+    jpos-weather \
 "
