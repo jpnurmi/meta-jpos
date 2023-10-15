@@ -19,6 +19,9 @@ repos:
     path: layers/meta-openembedded
     layers:
       meta-oe:
+  meta-clang:
+    url: https://github.com/kraj/meta-clang.git
+    path: layers/meta-clang
   meta-qt6:
     url: https://code.qt.io/yocto/meta-qt6.git
     branch: "6.6"
