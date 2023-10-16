@@ -10,3 +10,5 @@ repos:
 local_conf_header:
   accept-licenses: |
     LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
+  waveshare: |
+    WAVESHARE_1024X600_C_2_1 = "1"
