@@ -6,5 +6,4 @@ inherit packagegroup
 RDEPENDS:${PN} = "\
     jpos-settings \
     jpos-weather \
-    wpa-cute \
 "
