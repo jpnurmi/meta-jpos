@@ -8,4 +8,10 @@ IMAGE_INSTALL += "\
     packagegroup-fonts-truetype \
     packagegroup-jpos \
 "
-IMAGE_FEATURES += "splash weston"
+
+IMAGE_FEATURES += "\
+    hwcodecs \
+    splash \
+    ssh-server-dropbear \
+    weston \
+"
