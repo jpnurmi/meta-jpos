@@ -18,17 +18,16 @@ DEPENDS = "\
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/icons:"
 SRC_URI:append = "\
+    file://24x24/jpos-weather.png \
     file://48x48/jpos-weather.png \
     file://192x192/jpos-weather.png \
 "
 FILES:${PN}:append = "\
-    ${datadir}/icons/hicolor/48x48/apps/jpos-weather.png \
-    ${datadir}/icons/hicolor/192x192/apps/jpos-weather.png \
+    ${datadir}/icons/hicolor/*/apps/jpos-weather.png \
 "
 do_install:append() {
-    install -d ${D}${datadir}/icons/hicolor/48x48/apps
-    install ${WORKDIR}/48x48/jpos-weather.png ${D}${datadir}/icons/hicolor/48x48/apps
-
-    install -d ${D}${datadir}/icons/hicolor/192x192/apps
-    install ${WORKDIR}/192x192/jpos-weather.png ${D}${datadir}/icons/hicolor/192x192/apps
+    for size in 24x24 48x48 192x192; do
+        install -d ${D}${datadir}/icons/hicolor/${size}/apps
+        install ${WORKDIR}/${size}/jpos-weather.png ${D}${datadir}/icons/hicolor/${size}/apps
+    done
 }
