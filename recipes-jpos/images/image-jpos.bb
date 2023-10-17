@@ -12,6 +12,9 @@ IMAGE_INSTALL:append = "\
 
 IMAGE_FEATURES:append = "\
     hwcodecs \
-    splash \
     weston \
+"
+
+IMAGE_FEATURES:remove = "\
+    splash \
 "
