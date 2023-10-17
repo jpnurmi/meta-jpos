@@ -4,14 +4,14 @@ SUMMARY = "jpOS"
 DESCRIPTION = "jpOS image"
 LICENSE = "GPL-3.0-only"
 
-IMAGE_INSTALL += "\
+IMAGE_INSTALL:append = "\
+    packagegroup-basic \
     packagegroup-fonts-truetype \
     packagegroup-jpos \
 "
 
-IMAGE_FEATURES += "\
+IMAGE_FEATURES:append = "\
     hwcodecs \
     splash \
-    ssh-server-dropbear \
     weston \
 "
