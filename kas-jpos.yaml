@@ -4,7 +4,7 @@ distro: jpos
 defaults:
   repos:
     branch: kirkstone
-target: image-jpos
+target: jpos-image
 repos:
   meta-jpos:
   poky:
