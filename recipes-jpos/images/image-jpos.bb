@@ -7,6 +7,7 @@ LICENSE = "GPL-3.0-only"
 IMAGE_INSTALL:append = "\
     ca-certificates \
     networkmanager \
+    ntp ntpdate \
     packagegroup-basic \
     packagegroup-fonts-truetype \
     packagegroup-jpos \
