@@ -15,3 +15,20 @@ LIC_FILES_CHKSUM = "file://LICENSES/GPL-3.0-only.txt;md5=75d892af193fd5a298f724c
 DEPENDS = "\
     openssl \
 "
+
+FILESEXTRAPATHS:prepend := "${THISDIR}/icons:"
+SRC_URI:append = "\
+    file://48x48/jpos-weather.png \
+    file://192x192/jpos-weather.png \
+"
+FILES:${PN}:append = "\
+    ${datadir}/icons/hicolor/48x48/apps/jpos-weather.png \
+    ${datadir}/icons/hicolor/192x192/apps/jpos-weather.png \
+"
+do_install:append() {
+    install -d ${D}${datadir}/icons/hicolor/48x48/apps
+    install ${WORKDIR}/48x48/jpos-weather.png ${D}${datadir}/icons/hicolor/48x48/apps
+
+    install -d ${D}${datadir}/icons/hicolor/192x192/apps
+    install ${WORKDIR}/192x192/jpos-weather.png ${D}${datadir}/icons/hicolor/192x192/apps
+}
