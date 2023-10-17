@@ -6,6 +6,7 @@ LICENSE = "GPL-3.0-only"
 
 IMAGE_INSTALL:append = "\
     ca-certificates \
+    nano \
     networkmanager \
     ntp ntpdate \
     packagegroup-basic \
