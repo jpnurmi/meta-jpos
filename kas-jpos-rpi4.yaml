@@ -10,5 +10,7 @@ repos:
 local_conf_header:
   accept-licenses: |
     LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
-  waveshare: |
+  display: |
+    CONFIG_HDMI_BOOST = "4"
+    HDMI_FORCE_HOTPLUG = "1"
     WAVESHARE_1024X600_C_2_1 = "1"
