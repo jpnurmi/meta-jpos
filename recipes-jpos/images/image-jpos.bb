@@ -5,6 +5,7 @@ DESCRIPTION = "jpOS image"
 LICENSE = "GPL-3.0-only"
 
 IMAGE_INSTALL:append = "\
+    ca-certificates \
     networkmanager \
     packagegroup-basic \
     packagegroup-fonts-truetype \
