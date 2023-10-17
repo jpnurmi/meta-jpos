@@ -19,6 +19,8 @@ repos:
     path: layers/meta-openembedded
     layers:
       meta-oe:
+      meta-python:
+      meta-networking:
   meta-clang:
     url: https://github.com/kraj/meta-clang.git
     path: layers/meta-clang
