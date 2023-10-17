@@ -42,6 +42,8 @@ local_conf_header:
   dirs: |
     DL_DIR ?= "${TOPDIR}/../downloads"
     SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
+    JPOS_KB_LAYOUT ?= "se"
+    JPOS_TIMEZONE ?= "Europe/Stockholm"
 env:
   JPOS_WIFI_SSID: "$JPOS_WIFI_SSID"
   JPOS_WIFI_PSK: "$JPOS_WIFI_PSK"
