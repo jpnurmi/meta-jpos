@@ -6,6 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 IMAGE_INSTALL:append = "\
     ca-certificates \
+    darkman \
+    geoclue \
     nano \
     networkmanager \
     ntp ntpdate \
