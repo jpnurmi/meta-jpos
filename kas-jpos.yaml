@@ -25,8 +25,7 @@ repos:
     url: https://github.com/kraj/meta-clang.git
     path: layers/meta-clang
   meta-flutter:
-    url: https://github.com/sony/meta-flutter.git
-    branch: main
+    url: https://github.com/meta-flutter/meta-flutter.git
     path: layers/meta-flutter
   meta-qt6:
     url: https://code.qt.io/yocto/meta-qt6.git
