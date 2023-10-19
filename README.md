@@ -14,6 +14,10 @@
     branch: kirkstone
     revision: HEAD
 
+    URI: https://github.com/meta-flutter/meta-flutter.git
+    branch: kirkstone
+    revision: HEAD
+
     URI: https://code.qt.io/yocto/meta-qt6.git
     branch: 6.6
     revision: HEAD
