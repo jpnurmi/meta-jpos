@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-    URI: https://git.yoctoproject.org/git/poky
+    URI: https://git.yoctoproject.org/poky/
     branch: kirkstone
     revision: HEAD
 
@@ -18,11 +18,11 @@
     branch: kirkstone
     revision: HEAD
 
-    URI: https://code.qt.io/yocto/meta-qt6.git
+    URI: https://code.qt.io/cgit/yocto/meta-qt6.git/
     branch: 6.6
     revision: HEAD
 
-    URI: https://github.com/meta-rust/meta-rust-bin.git
+    URI: https://github.com/rust-embedded/meta-rust-bin.git
     branch: master
     revision: HEAD
 
