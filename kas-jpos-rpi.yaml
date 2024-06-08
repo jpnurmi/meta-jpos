@@ -1,0 +1,15 @@
+header:
+  version: 14
+  includes:
+    - kas-jpos.yaml
+repos:
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi.git
+    path: layers/meta-raspberrypi
+local_conf_header:
+  accept-licenses: |
+    LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
+  display: |
+    CONFIG_HDMI_BOOST = "4"
+    HDMI_FORCE_HOTPLUG = "1"
+    WAVESHARE_1024X600_C_2_1 = "1"

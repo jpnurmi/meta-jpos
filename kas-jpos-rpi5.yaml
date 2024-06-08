@@ -2,4 +2,4 @@ header:
   version: 14
   includes:
     - kas-jpos-rpi.yaml
-machine: raspberrypi4-64
+machine: raspberrypi5
