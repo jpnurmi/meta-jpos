@@ -1,1 +1,5 @@
 .vscode/
+build/
+downloads/
+layers/
+sstate-cache/
